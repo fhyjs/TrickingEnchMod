@@ -34,7 +34,7 @@ public class SoulSlowEnchantment extends SoulSpeedEnchantment {
         Vec3 vec3 = entity.getDeltaMovement();
         entity.level()
                 .addParticle(
-                        ParticleTypes.SOUL,
+                        ParticleTypes.ITEM_SLIME,
                         entity.getX() + (entity.getRandom().nextDouble() - 0.5) * (double)entity.getBbWidth(),
                         entity.getY() + 0.1,
                         entity.getZ() + (entity.getRandom().nextDouble() - 0.5) * (double)entity.getBbWidth(),

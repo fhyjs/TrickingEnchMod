@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "org.eu.hanana.reimu.trickingenchantments.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8.4",
+  "mixins": [
+    "ItemStackBreakingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
