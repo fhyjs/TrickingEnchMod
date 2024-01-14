@@ -111,7 +111,7 @@ public class EventHandle {
                 ItemStack itemStack = slot.getItem();
                 if (Utils.hasEnchantment(ITrickingEnchantment.class,itemStack)) {
                     try {
-                        event.getToolTip().add(Component.translatable("tooltip.trickingenchantments.enchanted"));
+                        event.getToolTip().add(1,Component.translatable("tooltip.trickingenchantments.enchanted"));
                     }catch (Exception e){
                         e.printStackTrace();
                     }
