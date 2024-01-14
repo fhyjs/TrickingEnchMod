@@ -11,6 +11,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import org.eu.hanana.reimu.trickingenchantments.TrickingEnchantmentsMod;
 import org.eu.hanana.reimu.trickingenchantments.enchantment.BreakingEnchantment;
+import org.eu.hanana.reimu.trickingenchantments.enchantment.NoMendingEnchantment;
 import org.eu.hanana.reimu.trickingenchantments.enchantment.NotSharpEnchantment;
 import org.eu.hanana.reimu.trickingenchantments.enchantment.SoulSlowEnchantment;
 
@@ -19,6 +20,7 @@ public class EnchantmentRegistryHandle {
     public static DeferredHolder<Enchantment, ? extends Enchantment> NOT_SHARP;
     public static DeferredHolder<Enchantment, ? extends Enchantment> SOUL_SLOW;
     public static DeferredHolder<Enchantment, ? extends Enchantment> Breaking;
+    public static DeferredHolder<Enchantment, ? extends Enchantment> NoMending;
     // 确保你正确设置了 ResourceLocation
 
     public static void reg(IEventBus modEventBus){
@@ -27,6 +29,7 @@ public class EnchantmentRegistryHandle {
         NOT_SHARP = ENCHANTMENTS.register("notsharp", NotSharpEnchantment::new);
         SOUL_SLOW = ENCHANTMENTS.register("soul_slow", SoulSlowEnchantment::new);
         Breaking = ENCHANTMENTS.register("breaking", BreakingEnchantment::new);
+        NoMending = ENCHANTMENTS.register("no_mending", NoMendingEnchantment::new);
 
         ENCHANTMENTS.register(modEventBus);
     }

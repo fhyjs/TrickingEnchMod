@@ -19,7 +19,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import javax.annotation.Nullable;
 
 @Mixin(ItemStack.class)
-public abstract class ItemStackBreakingMixin{
+public class ItemStackBreakingMixin{
     private ItemStack stack = (ItemStack) (Object) this;
     @Inject(at = @At("HEAD"), method = "hurt")
     public void hurt(int pAmount, RandomSource pRandom, ServerPlayer pUser, CallbackInfoReturnable<Boolean> cir) {
