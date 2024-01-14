@@ -18,7 +18,7 @@ import org.eu.hanana.reimu.trickingenchantments.registry.EnchantmentRegistryHand
 
 import static org.eu.hanana.reimu.trickingenchantments.common.Datas.SPEED_MODIFIER_SOUL_SLOW_UUID;
 
-public class SoulSlowEnchantment extends SoulSpeedEnchantment {
+public class SoulSlowEnchantment extends SoulSpeedEnchantment implements ITrickingEnchantment{
     public SoulSlowEnchantment() {
         super(Rarity.VERY_RARE, EquipmentSlot.FEET);
     }

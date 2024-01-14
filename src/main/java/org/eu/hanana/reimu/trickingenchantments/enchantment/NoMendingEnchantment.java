@@ -17,7 +17,7 @@ import org.eu.hanana.reimu.trickingenchantments.registry.EnchantmentRegistryHand
 
 import java.util.Map;
 
-public class NoMendingEnchantment extends MendingEnchantment {
+public class NoMendingEnchantment extends MendingEnchantment implements ITrickingEnchantment{
     public NoMendingEnchantment() {
         super(Rarity.VERY_RARE, EquipmentSlot.values());
     }

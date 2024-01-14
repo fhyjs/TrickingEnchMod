@@ -1,5 +1,12 @@
 {
  "enchantment.trickingenchantments.notsharp": "frustrated",
  "enchantment.trickingenchantments.soul_slow": "soul Slow",
- "enchantment.trickingenchantments.breaking": "breaking"
+ "enchantment.trickingenchantments.no_mending": "no mending",
+ "enchantment.trickingenchantments.harm": "harm",
+ "enchantment.trickingenchantments.harm_fire": "harm fire",
+ "enchantment.trickingenchantments.harm_fall": "harm fall",
+ "enchantment.trickingenchantments.harm_explosion": "harm explosion",
+ "enchantment.trickingenchantments.harm_projectile": "harm projectile",
+ "enchantment.trickingenchantments.breaking": "breaking",
+ "tooltip.trickingenchantments.enchanted": "Tricking enchanted!"
 }

@@ -19,7 +19,7 @@ import org.eu.hanana.reimu.trickingenchantments.registry.EnchantmentRegistryHand
 
 import static org.eu.hanana.reimu.trickingenchantments.common.Datas.SPEED_MODIFIER_SOUL_SLOW_UUID;
 
-public class BreakingEnchantment extends DigDurabilityEnchantment {
+public class BreakingEnchantment extends DigDurabilityEnchantment implements ITrickingEnchantment{
     public BreakingEnchantment() {
         super(Rarity.VERY_RARE, EquipmentSlot.MAINHAND);
     }

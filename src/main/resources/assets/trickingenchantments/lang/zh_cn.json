@@ -1,5 +1,12 @@
 {
  "enchantment.trickingenchantments.notsharp": "顿挫",
  "enchantment.trickingenchantments.soul_slow": "灵魂粘脚",
- "enchantment.trickingenchantments.breaking": "劣质"
+ "enchantment.trickingenchantments.no_mending": "经验破坏",
+ "enchantment.trickingenchantments.harm": "伤害",
+ "enchantment.trickingenchantments.harm_fire": "火焰伤害",
+ "enchantment.trickingenchantments.harm_fall": "摔落伤害",
+ "enchantment.trickingenchantments.harm_explosion": "爆炸伤害",
+ "enchantment.trickingenchantments.harm_projectile": "弹射物伤害",
+ "enchantment.trickingenchantments.breaking": "劣质",
+ "tooltip.trickingenchantments.enchanted": "负魔物品!"
 }
